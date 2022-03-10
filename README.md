@@ -1,7 +1,9 @@
 # Trino
 A parallelised querying tool to connect to all sort of data sources, including data lake, data warehouse, direct database connection etc.. It also provides caching and other services on top. 
 
-# How to deploy
+One benefit of using Trino, is to use it as a layer between various data sources and BI tools (or self built visualisation tools). This enables easier switch of choices on both sides. 
+
+## How to deploy
 https://trino.io/docs/current/installation/deployment.html
 
 ## AWS quick POC
@@ -44,3 +46,7 @@ http://{server-ip}:8080/ui
 
 ### Client libraries (external connections)
 https://trino.io/resources.html
+
+# Starburst
+In above Trino resources, Starburst is mentioned as an enterprise level distribution of Trino. Architecture reference as below:
+https://www.starburst.io/wp-content/uploads/2021/02/Starburst_Business_Intelligence_SolutionBrief.pdf
