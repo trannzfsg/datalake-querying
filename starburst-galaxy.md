@@ -2,6 +2,7 @@
 [aws-dms](aws-dms.md)
 
 ### Create starburst reference to data lake (s3)
+```
 create schema {db}.{schema} with (location = 's3://{bucket}/{path/starburst-db-file}');
 
 create table {db}.{schema}.{table} 
@@ -13,3 +14,4 @@ with (
     external_location = 's3://{bucket}/{path/sourcefile}.{csv|parquet|etc}', 
     format='parquet'
 );
+```
