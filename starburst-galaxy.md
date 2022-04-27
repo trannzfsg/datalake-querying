@@ -1,3 +1,6 @@
+## Starburst Galaxy
+Starburst cloud offering
+
 ### Use AWS DMS to migrate data from RDS (source of truth) to S3 (data lake)
 [aws-dms.sh](aws-dms.sh)
 
