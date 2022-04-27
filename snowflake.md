@@ -83,7 +83,7 @@ GRANT SELECT ON FUTURE TABLES IN SCHEMA IDENTIFIER('"{database}"."{schema}"') TO
 GRANT SELECT ON FUTURE EXTERNAL TABLES IN SCHEMA IDENTIFIER('"{database}"."{schema}"') TO ROLE IDENTIFIER('"{integration-role-name}"');
 ```
 
-### Snowflake create external tables (SQL)
+### Snowflake create external tables (SQL) - auto schema detection is also available for parquet format
 ```
 use database {database};
 use schema {schema};
@@ -99,7 +99,7 @@ create external table {tablename}
     file_format = (type = parquet);
 ```
 
-### Snowflake create internal tables (SQL) - copy data to Snowflake
+### Snowflake create internal tables (SQL) - copy data to Snowflake, auto schema detection is also available for parquet format
 ```
 use database {database};
 use schema {schema};
