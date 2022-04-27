@@ -11,6 +11,7 @@ http://{ip}:8080/ui/insights
 https://docs.starburst.io/starburst-enterprise/try/catalog.html
 
 ### marketplace EC2 start up scripts
+assume data is in RDS instead of S3 (suggest to use Galaxy if data is in S3 instead of Enterprise)
 ```
 sudo su
 
