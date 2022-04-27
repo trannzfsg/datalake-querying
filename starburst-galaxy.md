@@ -1,5 +1,5 @@
 ### Use AWS DMS to migrate data from RDS (source of truth) to S3 (data lake)
-[aws-dms](aws-dms.md)
+[aws-dms.sh](aws-dms.sh)
 
 ### Create starburst reference to data lake (s3)
 ```
